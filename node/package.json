@@ -1,0 +1,21 @@
+{
+  "name": "celery_realtime",
+  "version": "1.0.0",
+  "description": "Celery realtime con socket.io",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "redis": "^4.0.0",
+    "socket.io": "^4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martin-Ruggeri-Bio/celery_realtime.git"
+  },
+  "author": "Martin_Ruggeri",
+  "license": "ISC"
+}
